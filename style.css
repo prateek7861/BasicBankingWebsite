@@ -1,0 +1,198 @@
+body{
+    text-align: center;
+    font-family: "Lato", sans serif;
+    background-image: url('banking.jpg');
+}
+.topnav {
+  overflow: hidden;
+  background-color: #669999;
+  border: 3px solid #272727;
+}
+
+.topnav a{
+ float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 400;
+}
+.topnav a:hover {
+  background-color: #cccc99;
+  opacity: 0.7;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-linkedin {
+  height: 25px;
+  width: 25px;
+  background: #007bb5;
+  color: white;
+ }
+
+.fa-github {
+  height: 25px;
+  width: 25px;
+  background: #63dd53;
+  color: white;
+  }
+
+.viewusers{
+  background-color: #272727;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+table, th, td {
+  background-color: #CECECE;
+  border: 1px solid black;
+  width:40%;
+}
+
+
+h1{
+	color:#246edd;
+	border:2px solid #000000; 
+	font-size:42px;
+  margin-bottom: 4rem;
+  font-weight: 600;
+
+}
+
+.button a {
+  color: #2f4f4f; 
+  width: 100%;
+}
+
+.button a:hover {
+  opacity: .85;
+  background-color: #EBF6F6;
+  color: black;
+}
+
+.button {
+    padding: 25px;
+    max-width:100% ;
+    background-color: #dcdcdc;
+    border: #020202;
+    margin: auto;    
+    border-radius: 0px;
+    border: 2px solid black;
+}
+
+
+@media only screen and (max-width:500px){
+
+    *{
+      font-size: 10px;
+    }
+    #navbar
+    {
+        padding: 20px;
+        padding-right: 30px;
+    }
+    .nav
+    {
+        font-size: 30px;
+    }
+}
+
+.middle
+{ 
+  border:2px solid #000000; 
+  margin-bottom: 4rem;
+  font-weight: 600;
+  margin-bottom: -4px;
+  background-color: #669999; 
+  position: fixed;
+  width: 100%;
+  bottom: 5px;
+  border: 3px solid #272727;
+
+}
+  .middle h3{
+  font-weight: 500;
+  font-family: "Lato", sans serif;
+}
+
+.btn{
+	position: center;
+	display: inline-block;
+    width:20px;
+    height:20px;
+    margin: 10px;
+    text-align:center;
+}
+
+.container{
+    padding: 5px;
+    max-width:15% ;
+    margin: auto;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 0px;
+
+}
+
+
+.text{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+.form{
+    width: 600px;
+    margin: 0 auto;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #CFE4E4;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #df7f11;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #272727;
+}
+
+.history{
+  width: 20%;
+  background-color: #f27b35;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.history:hover{
+   background-color: #272727;
+}
+.container .button a{
+  text-align: center;
+}
